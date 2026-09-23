@@ -50,23 +50,23 @@ nav, p, section, article {
 
 .navigation a {
     display: block;
-    color: navy;
+    color: var(--primary-color);
     padding: 10px;
     text-decoration: none;
     font-size: 1.2rem;
-    border: 2px solid navy;
+    border: 2px solid var(--primary-color);
     margin: 5px;
 }
 
 .navigation a:hover {
-    color: tomato;
+    color: var(--accent2-color);
 }
 
 .history {
     display: grid;
     grid-template-columns: 1.5fr auto 1.5fr;
     gap: 16px;
-    border: 1px solid black;
+    border: 1px solid var(--accent1-color);
 }
 
 .history-image img {
@@ -75,7 +75,7 @@ nav, p, section, article {
 }
 
 .adventure-section {
-    border: 1px solid black;
+    border: 1px solid var(--accent1-color);
 }
 
 .adventure-section h2 {
