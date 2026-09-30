@@ -1,41 +1,7 @@
-:root {
-    --primary-color: #055a05;
-    --accent1-color: #264653;
-    --accent2-color: #e9c46a;
-    --heading-font: "Times New Roman", "Georgia", serif;
-    --body-font: "Arial", "Helvetica", sans-serif;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: var(--body-font);
-    color: var(--accent1-color);
-}
-
-header {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    place-items: center;
-}
-
-header, main, footer {
-    width: 840px;
-    margin: 0 auto;
-}
-
 .section-heading {
     font-size: 1.25rem;
     text-align: center;
     margin: 20px 0;
-}
-
-h1 {
-    font-size: 1.5rem;
 }
 
 .contact-info {
@@ -50,12 +16,6 @@ h1 {
     border: 1px solid var(--accent1-color);
     padding: 10px;
     margin: 20px 0;
-}
-
-
-figcaption {
-    text-align: center;
-    font-style: italic;
 }
 
 .employee-profiles {
@@ -168,18 +128,4 @@ button {
     font-weight: 700;
     cursor: pointer;
     width: 400px;
-}
-
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-footer .socialmedia {
-    position: absolute;
-    right: 1rem;
-    display: flex;
-    gap: 1rem;
 }
