@@ -28,33 +28,10 @@ header, main, footer {
     margin: 0 auto;
 }
 
-nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
-}
-
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
-
-.navigation li {
-    flex: 1 1 auto;
-}
-
-.navigation a {
-    display: block;
-    color: var(--primary-color);
-    padding: 10px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    border: 2px solid var(--primary-color);
-    margin: 5px;
-}
-
-.navigation a:hover {
-    color: var(--accent2-color);
+.section-heading {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 20px 0;
 }
 
 h1 {
