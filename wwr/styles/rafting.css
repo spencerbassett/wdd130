@@ -109,7 +109,7 @@ figcaption {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -144,4 +144,98 @@ footer .socialmedia {
     right: 1rem;
     display: flex;
     gap: 1rem;
+}
+
+.offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.offerings img,
+.trips img {
+    width: 100%;
+    height: auto;
+}
+
+.signup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.newsletter form {
+    display: grid;
+    gap: 8px;
+}
+
+.newsletter input,
+.newsletter button {
+    padding: 8px;
+}
+
+.newsletter button {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    border: none;
+}
+
+.call-to-action {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    text-align: center;
+}
+
+.call-to-action h2 {
+    color: var(--accent2-color);
+}
+
+.call-to-action-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+main h1 {
+    text-align: center;
+    margin: 16px;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.trips section {
+    text-align: center;
+}
+
+.offerings section {
+    text-align: center;
+}
+
+.trips img {
+    width: 225px;
+    height: 150px;
+}
+table {
+    width: 90%;
+    margin: 16px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid var(--accent1-color);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
